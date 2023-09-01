@@ -12,6 +12,7 @@
     "seed": "ts-node -P tsconfig-seed.json -r tsconfig-paths/register --transpileOnly prisma/seed.ts"
   },
   "dependencies": {
+    "@clerk/nextjs": "4.23.3",
     "@prisma/client": "5.2.0",
     "@types/node": "20.5.3",
     "@types/react": "18.2.21",
