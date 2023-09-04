@@ -5,7 +5,7 @@ export default function ApplicationLayout({
 }) {
   return (
     <div>
-      <aside>Dashboard Aside</aside>
+      <aside>Side nav</aside>
       <main>{children}</main>
     </div>
   );
